@@ -1,0 +1,17 @@
+{
+    "machines": [
+      {"name": "QQQ37", "info": "Details about QQQ37", "machineNumber": 60},
+      {"name": "QQQ36", "info": "Details about QQQ36", "machineNumber": 85},
+      {"name": "QQQ35", "info": "Details about QQQ35", "machineNumber": 6},
+      {"name": "QQQ34", "info": "Details about QQQ34", "machineNumber": 5},
+      {"name": "XYZ33", "info": "Details about QQQ33", "machineNumber": 21},
+      {"name": "QQQ32", "info": "Details about QQQ32", "machineNumber": 23},
+      {"name": "ABC31", "info": "Details about QQQ31", "machineNumber": 90},
+      {"name": "QQQ30", "info": "Details about QQQ30", "machineNumber": 1},
+      {"name": "QQQ33", "info": "Details about QQQ33", "machineNumber": 34},
+      {"name": "QQQ69", "info": "Details about QQQ69", "machineNumber": 32},
+      {"name": "XWA30", "info": "Details about XWA30", "machineNumber": 10},
+      {"name": "SJE33", "info": "Details about SJE33", "machineNumber": 42},
+      {"name": "JIO69", "info": "Details about JIO69", "machineNumber": 31}
+    ]
+  }

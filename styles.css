@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f4f8;
+}
+
+/* Main container as flexbox */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Form container adjusted */
+.form-container {
+    flex: 1;
+    max-width: 400px;
+    margin: 20px;
+}
+
+/* Map container aligned to the right */
+.map-container {
+    flex: 0 0 400px; /* Sets the width of the map container */
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Align input text and input field */
+#inputGroup {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#inputText {
+    margin: 0;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Map grid styles */
+.map-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    font-size: 12px;
+}
+
+/* Tooltip styles */
+.grid-item .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+
+    /* Positioning */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* Fade-in effect */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.grid-item:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.grid-item:hover {
+    color: blue;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #0056b3;
+}

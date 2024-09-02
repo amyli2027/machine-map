@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Lookup</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <h1>Machine Lookup</h1>
+            <form id="lookupForm">
+                <div id="inputGroup">
+                    <h3 id="inputText">Input:</h3>
+                    <input type="text" id="machineName" name="Machine Name" placeholder="Enter name">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="map-container">
+            <h2>Building map</h2>
+            <div id="mapGrid" class="map-grid"></div>
+            <div class="pagination">
+                <button id="prevButton">Previous</button>
+                <button id="nextButton">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
